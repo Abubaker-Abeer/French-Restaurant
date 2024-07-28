@@ -1,0 +1,489 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/*public*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix{
+    clear: both;
+}
+
+
+body{
+    font-family: 'Alegreya', serif;
+    font-weight: 400; 
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/* header section */
+.header{
+    background-image: url(../img/headerBackground.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+/* navbar */
+.navbar{
+    padding: 50px;
+}
+.navbar .logo{
+   float: left;
+   width: 40%;
+}
+.navbar .logo img{
+    width: 25%;
+    
+}
+.navbar .nav{
+float: left;
+width: 60%;
+padding-top: 20px;
+}
+.navbar .nav .list-item{
+    display: inline-block;
+}
+.navbar .nav .list-item a{
+    color: #ffff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* header-content */
+.header-content{
+   color: #ffff;
+    margin-top: 90px;
+}
+.header-content img{
+    width: 20%;
+}
+.header-content h1{
+    font-size: 75px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.header-content button{
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+}
+ .btn-learn{
+background-color: #c1ab84;
+color: #ffff;
+margin: 10px;
+}
+.btn-learn:hover{
+    color: #000;;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.header .overlay{
+    background-color: rgb(0, 0, 0,.5);
+    
+   height: 100vh;
+   width: 100%;
+   position: absolute;
+}
+/* About section */
+.about-img{
+ float: left;
+ width: 40%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content{
+    float: left;
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.about-content h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #253048;
+    margin-bottom: 20px;
+}
+.about-content h3{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    margin-bottom: 20px;
+}
+.about-content p{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    line-height:20px ;
+    margin-bottom: 10px;
+}
+.about-content ul li{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+
+}
+.about-content ul li i{
+    background-color: rgb(193, 171, 132);
+    color: #ffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+   line-height: 40px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.about-content ul li span{
+    margin-left: 20px;
+}
+/*reviewers*/
+
+.reviewers , .location{
+    background-color: #f8f8f8;
+    padding-top: 70px;
+    padding-bottom:40px ;
+}
+.reviewers-desc , .location-desc{
+    float: left;
+    width: 60%;
+
+}
+.reviewers-desc h2 , .location-desc h2{
+    color: rgb(37,48,72);
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+.reviewers-desc h3{
+   
+        font-family: 'Dancing Script', cursive;
+        color: #c1ab84;
+        margin-bottom: 30px;
+        font-weight: 400;
+    
+}
+.reviewers-desc p ,.location-desc p{
+    width: 70%;
+    line-height:30px ;
+    margin-bottom: 20px;
+
+
+}
+.reviewers-desc i ,.location-desc i{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #c1ab84;
+}
+.reviewers-img ,.location-img{
+    float: left;
+    width: 40%;
+    
+}
+.reviewers-img img {
+    width: 100%;
+}
+/* cover */
+.cover{
+    background-image:url(../img/shutterstock_280369721.jpg);
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size:cover;
+    background-attachment: fixed;
+}
+ /*menu*/
+.menu{
+    text-align: center;
+    margin-top: 70px;
+}
+.menu h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.menu .subheading{
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.menu-content .item{
+    float:left;
+    width: 33.33%;
+
+}
+.menu-content .item img{
+    width: 80%;
+}
+.menu-content .item h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-content .item p{
+    width: 70%;
+    margin: auto;
+    margin-bottom:30px ;
+    line-height: 30px;
+}
+.menu-content a{
+    background-color: #c1ab84;
+    color: #f8f8f8;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+/* location*/
+.location{
+    margin-top: 70px;
+}
+.location-img iframe{
+    width: 100%;
+}
+.location i{
+    color: #ffff;
+    background-color: #c1ab84;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* footer*/
+.footer{
+    background-color: #403d38;
+    color: #ffff;
+    padding-top: 30px;
+}
+.footer-content{
+    overflow: hidden;
+}
+.footer .item{
+    float: left;
+    width: 25%;
+}
+.footer .item h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer .item p{
+    color: #969696;
+    font-weight: 400;
+    width: 85%;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.footer .item a{
+    color: #969696;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 14px;
+}
+.footer .item a:hover{
+    color: #ffff;
+
+}
+.footer .item a:before{
+  content: '\f054';
+  font-family: FontAwesome;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.footer .item .content{
+    color: #969696;
+    font-size: 14px;
+}
+.footer .item .content li{
+    margin-bottom: 20px;
+}
+
+.footer .item .content li i{
+    margin-bottom: 20px;
+}
+.footer-second{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+.footer-second p{
+    color: #969696;
+    font-size: 14px;
+    margin: auto;
+    width: 17%;
+}
+.footer-second .icons{
+    margin-top: 30px;
+}
+.footer-second .icons i{
+    background-color: #484540;
+    color: #969696;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius:20px ;
+}
+.footer-second .icons i:hover{
+    color: #ffff;
+    background-color: #c1ab84;
+}
+/* media query*/
+@media (max-width:992px){
+    .navbar .logo{
+        float: none;
+        width: 100%;
+     }
+     .navbar .logo img{
+        width: 30%;
+        
+    }
+    .navbar .nav{
+        float: none;
+        width: 100%;
+        }
+       
+}
+@media (max-width:576px) {
+   /* header */
+   
+   
+    .navbar .nav .list-item a{
+            color: #ffff;
+            font-size: 12px;
+            margin-right: 20px;
+            margin: auto;
+            padding-right: 10px;
+        }
+        .header-content{
+            color: #ffff;
+             margin-top: 70px;
+         }
+         .header-content img{
+             width: 50%;
+         }
+         .header-content h1{
+             font-size: 30px;
+           
+         }
+         .header-content p{
+            font-size: 20px;
+        }
+        .header-content button{
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+   /*About*/
+   .about-img{
+    float: none;
+    width: 100%;
+   }
+   .about-content{
+       float: none;
+       width: 100%;
+       margin-top: 10px;
+   }
+   .about-content h2{
+       font-size: 25px;
+       margin-bottom: 20px;
+      
+   }
+   .about-content p{
+       width: 100%;
+       font-size: 14px;
+    
+   }
+   .about-content ul{
+    margin-bottom: 10px;
+   }
+   
+   .about-content ul li {
+    width: 100%;
+   }
+   .about-content ul li i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+   }
+   .about-content ul li span{
+    margin-left: 10px;
+    font-size: 12px;
+
+}
+/*menu*/
+.menu-content .item{
+    float:none;
+    width: 100%;
+
+}
+/* reviewers & location*/
+.reviewers-desc , .location-desc{
+    float: none;
+    width: 100%;
+    
+
+}
+.reviewers-img ,.location-img{
+    float: none;
+    width: 100%;
+    
+}
+.reviewers-desc p ,.location-desc p{
+    width: 100%;
+    font-size: 14px;
+
+
+}
+.reviewers-desc i ,.location-desc i{
+  margin-right: 10px ;
+
+    
+}
+.reviewers-desc ul li span {
+    
+    font-size: 11px;
+
+}
+.location-desc ul li span{
+    font-size: 11px;
+}
+/* footer*/
+
+
+.footer .item{
+    float: none;
+    width: 100%;
+}
+.footer-second img{
+    width: 70%;
+}
+.footer-second p{
+    
+    font-size: 14px;
+    margin: auto;
+    width: 50%;
+}
+}
+
